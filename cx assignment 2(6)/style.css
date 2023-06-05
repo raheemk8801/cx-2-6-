@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&family=Poppins:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 40;
+   
+}
+body{
+    background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/5/PI/FB/ET/81954456/conference-room-interior-design-1000x1000.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #0c0a0a;
+    height: 100vh;
+    width: 100%;
+
+}
+h1{
+    text-align: center;
+    background-color: rgb(168, 187, 196);
+}
+form {
+    max-width: 600px;
+    max-height: 900px;
+    margin: 50px auto;
+    padding: 45px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(136, 109, 188, 0.2);
+    margin-top: 100px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+button[type="submit"] {
+    display: flexbox;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: rgb(168, 187, 196);
+}
+
+@media screen and (max-width: 420px) {
+    /* Adjust styles for smaller screens if necessary */
+body{
+    width: 100%;
+}
+.container {
+    max-width: 400px;
+}
+}
